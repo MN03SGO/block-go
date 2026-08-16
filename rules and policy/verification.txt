@@ -1,0 +1,13 @@
+# i'm use curl -I --max-time 5 https://example.com
+# output 
+HTTP/2 200 
+date: Sun, 16 Aug 2026 04:54:57 GMT
+content-type: text/html
+server: cloudflare
+last-modified: Wed, 12 Aug 2026 20:17:18 GMT
+allow: GET, HEAD
+accept-ranges: bytes
+age: 3128
+cf-cache-status: HIT
+cf-ray: a2bdd8130803e833-SJO
+
