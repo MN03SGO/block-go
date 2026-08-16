@@ -1,0 +1,17 @@
+[Unit]
+Description=Control de Bloqueo de WhatsApp
+After=network.target nftables.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/block-whatsapp.sh
+ExecStop=/usr/local/bin/unblock-whatsapp.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+
